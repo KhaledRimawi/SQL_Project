@@ -1,11 +1,9 @@
 # SQL_Project
 Investigate a Relational Database
 
-Throughout the project, I explored:
 
-SQL Joins
-SQL Aggregations
-SQL Subqueries & Temporary Tables
-SQL Data Cleaning
-SQL Window Functions
-SQL Advanced JOINS & Performance Tuning
+
+[sql.txt](https://github.com/user-attachments/files/19341478/sql.txt)
+
+
+[SQL Project Submission Template (make a copy).pptx](https://github.com/user-attachments/files/19341480/SQL.Project.Submission.Template.make.a.copy.pptx)
