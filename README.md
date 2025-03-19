@@ -43,9 +43,7 @@ We want to compare the rental duration of these family-friendly movies to all mo
 
 Query:
 
-sql
-Copy
-Edit
+
 SELECT m.title, cat.name, m.rental_duration, 
        NTILE(4) OVER (ORDER BY m.rental_duration) AS standard_quartile
 FROM film_category fcat
@@ -59,9 +57,7 @@ We need to identify the top 10 customers based on total payments in 2007, along 
 
 Query:
 
-sql
-Copy
-Edit
+
 WITH best_clients AS (
     SELECT 
         py.customer_id,
@@ -89,9 +85,7 @@ We want to track the month-to-month changes in payments for each top-paying cust
 
 Query:
 
-sql
-Copy
-Edit
+
 WITH top_payers AS (
     SELECT 
         pm.customer_id,
